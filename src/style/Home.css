@@ -1,0 +1,30 @@
+/* In your CSS file or a styled component */
+.carousel-center-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-button {
+  background-color:transparent ;
+  border-color: white;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: auto;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  background-color: #e0c671;
+}
+
+h2{
+  color: white;
+}

@@ -1,0 +1,70 @@
+/* Base Footer Styles */
+footer {
+  background-color: #800020; /* Deep Burgundy */
+  color: #FFF8E7; /* Ivory/Cream */
+  padding: 2.5rem 1.5rem;
+}
+
+/* Container */
+footer .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  footer .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Headings */
+footer h2,
+footer h3 {
+  color: #D4AF37; /* Gold */
+}
+
+footer h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* Text and Lists */
+footer p,
+footer ul,
+footer li {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer a {
+  color: #FFF8E7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #D4AF37;
+}
+
+/* Bottom Border */
+footer .footer-bottom {
+  border-top: 1px solid #2E2E2E; /* Charcoal Gray */
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
